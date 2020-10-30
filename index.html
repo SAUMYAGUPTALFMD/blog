@@ -327,8 +327,10 @@ body{
                     <textarea class="col-12 textarea" placeholder="Write Something..." rows="4"></textarea>
                 </div>
                 <div class="col-md-3">
-                    <button class="btn btn-dark col-12" id="infobtn">Insert Image</button>
-                    <button class="btn btn-dark col-12" id="infobtn">Insert Video</button>
+                    <button class="btn btn-dark col-12" id="infobtn" onclick="document.getElementById('file-input1').click();">Insert Image</button>
+                    <input id="file-inpu1t" type="file" name="name" style="display: none;" />
+                    <button class="btn btn-dark col-12" id="infobtn" onclick="document.getElementById('file-input2').click();">Insert Video</button>
+                    <input id="file-input2" type="file" name="name" style="display: none;" />
                     <button class="btn col-12" id="infobtn" style="background-color: #512DA8; color: white;">Submit</button>
                 </div>
             </div>
